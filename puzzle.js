@@ -40,8 +40,15 @@ startButton.onclick = function () {
 }
 endButton.onclick = function()
 {
-    alert("没关系，坚持"+timeText.value + "s也很厉害了");
-    location.reload([true]);
+    if(startButton.value=="正在游戏")
+    {
+        alert("没关系，坚持"+timeText.value + "s也很厉害了");
+        location.reload([true]);
+    }else if(startButton.value=="开始游戏")
+    {
+        return ;
+    }
+    
 }
 function timing() {
     curTime++;
