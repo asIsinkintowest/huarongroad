@@ -46,32 +46,32 @@
 }
 .but {
     margin: auto auto;
-    width: 200px;
+    width: 220px;
 }
 
 .buttonStyle {
-    width: 50px;
-    height: 15px;
-    font-size: 10px;
-    line-height: 15px;
-    border-radius: 2px;
+    width: 60px;
+    height: 20px;
+    font-size: 9px;
+    line-height: 10px;
     color: #4F683B;
+    margin-top: 10px;
     background-color: #D7C4AC;
 }
 
 .inputStyle {
     float: auto;
-    width: 33px;
+    width: 30px;
     height: 15px;
     line-height: 15px;
     font-size: 10px;
     color: #1F654F;
+    margin-top: -5px;
     background-color: #D7C4AC;
 }
 
 .timeText {
     color: #1F654F;
-    /* margin-left: 230px; */
     font-size: 10px;
 }
 
